@@ -1,0 +1,28 @@
+.child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+.child:hover i {
+  visibility: visible;
+}
+
+.child i {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+  color: #b45309;
+}
+
+.child > div {
+  flex: 1;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
